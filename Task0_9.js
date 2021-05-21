@@ -3,19 +3,24 @@
 
 function printVowel(word){
   
-  var wordArr = word.split("");
+  var wordLower = word.toLowerCase();
+  var wordArr = wordLower.split("");
   var nam = "";
   
   for(var i = 0; i < wordArr.length; i++){
-   var vowels = "aeiouAEIOU";
+   var vowels = "aeiou";
    
    if(vowels.includes(wordArr[i])){
+     if(nam.includes(wordArr[i])){
+       continue;
+     }else{
+       nam += wordArr[i] + ", ";
+     }
     
-     nam += wordArr[i] + ", ";
    }
     
   }
-   console.log(nam.substring(0,nam.length - 2))
+   console.log("Vowels: " + nam.substring(0,nam.length - 2));
 }
 
-printVowel("SandilE")
+printVowel("Umuzi");
