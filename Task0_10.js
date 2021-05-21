@@ -1,3 +1,4 @@
+
 //JavaScript Level-Zero-Coding-Challenges Task 0.10
 
 function commonChar(input1, input2){
@@ -8,7 +9,6 @@ function commonChar(input1, input2){
    for(var i = 0; i < Array1.length; i++){
      if(Array2.includes(Array1[i])){
        common += Array1[i] + ", ";
-       console.log(Array1[i])
      }
    }
 
