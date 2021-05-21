@@ -1,3 +1,4 @@
+
 //JavaScript Level-Zero-Coding-Challenges Task 0.8
 
 function numToHours(inputNum){
@@ -7,16 +8,16 @@ function numToHours(inputNum){
 
   if(hours === 1){
     if(minutes === 1){
-      console.log(hours +" hour ," + minutes + " minute");
+      console.log(hours +" hour, " + minutes + " minute");
     }else{
-      console.log(hours +" hour ," + minutes + " minutes");
+      console.log(hours +" hour, " + minutes + " minutes");
     }
     
   }else{
     if(hours === 1){
-      console.log(hours +" hours ," + minutes + " minute");
+      console.log(hours +" hours, " + minutes + " minute");
     }else{
-      console.log(hours +" hours ," + minutes + " minutes");
+      console.log(hours +" hours, " + minutes + " minutes");
     }
   }
   
