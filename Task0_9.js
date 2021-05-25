@@ -1,5 +1,3 @@
-//JavaScript Level-Zero-Coding-Challenges Task 0.9
-
 
 function printVowel(word){
   
