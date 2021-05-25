@@ -1,4 +1,3 @@
-//JavaScript Level-Zero-Coding-Challenges Task 0.4
 
 function evenOrOdd(num){
 
