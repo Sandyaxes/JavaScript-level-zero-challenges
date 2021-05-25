@@ -1,6 +1,4 @@
 
-//JavaScript Level-Zero-Coding-Challenges Task 0.10
-
 function commonChar(input1, input2){
   var Array1 = input1.split("");
   var Array2 = input2.split("");
