@@ -8,8 +8,10 @@ function numToHours(inputNum) {
     console.log(hours + " hours ," + minutes + " minute");
   } else if (hours === 1 && minutes > 1) {
     console.log(hours + " hour ," + minutes + " minutes");
-  } else if (hours === 0 && minutes === 1) {
+  } else if (hours > 1 && minutes === 1) {
     console.log(hours + " hours ," + minutes + " minute");
+  } else if (hours === 1 && minutes === 0 ) {
+    console.log(hours + " hour ," + minutes + " minutes");
   } else if (hours === 0 && minutes === 1) {
     console.log(hours + " hours ," + minutes + " minute");
   } else {
@@ -17,4 +19,4 @@ function numToHours(inputNum) {
   }
 }
 
-numToHours(133);
+numToHours(60);
