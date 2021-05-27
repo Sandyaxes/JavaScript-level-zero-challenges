@@ -1,12 +1,12 @@
 
 function commonChar(input1, input2){
-  var Array1 = input1.split("");
-  var Array2 = input2.split("");
-  var common = "";
+  let array1 = input1.split("");
+  let array2 = input2.split("");
+  let common = "";
 
-   for(var i = 0; i < Array1.length; i++){
-     if(Array2.includes(Array1[i])){
-       common += Array1[i] + ", ";
+   for(let i = 0; i < array1.length; i++){
+     if(array2.includes(array1[i])){
+       common += array1[i] + ", ";
      }
    }
 
