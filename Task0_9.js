@@ -1,11 +1,11 @@
 
-function printVowel(word){
+function printVowels(word){
   
   let wordLower = word.toLowerCase();
   let wordArr = wordLower.split("");
   let nam = "";
   
-  for(;et i = 0; i < wordArr.length; i++){
+  for(let i = 0; i < wordArr.length; i++){
    let vowels = "aeiou";
    
    if(vowels.includes(wordArr[i])){
@@ -21,4 +21,4 @@ function printVowel(word){
    console.log("Vowels: " + nam.substring(0,nam.length - 2));
 }
 
-printVowel("Umuzi");
+printVowels("Umuzi");
