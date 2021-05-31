@@ -1,12 +1,12 @@
 
 function printVowel(word){
   
-  var wordLower = word.toLowerCase();
-  var wordArr = wordLower.split("");
-  var nam = "";
+  let wordLower = word.toLowerCase();
+  let wordArr = wordLower.split("");
+  let nam = "";
   
-  for(var i = 0; i < wordArr.length; i++){
-   var vowels = "aeiou";
+  for(;et i = 0; i < wordArr.length; i++){
+   let vowels = "aeiou";
    
    if(vowels.includes(wordArr[i])){
      if(nam.includes(wordArr[i])){
